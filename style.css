@@ -1,0 +1,112 @@
+/* General Body Styling */
+body {
+    background-color: #FAE3DC; /* Softer background */
+    color: #333; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header and Main Headings */
+h1 {
+    color: #432E54;
+    font-family: 'DM Serif Text', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2, h3 {
+    color: #AE445A;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+/* Paragraph Text */
+p {
+    color: #4B4376;
+    font-size: 1rem;
+    margin: 10px 20px;
+}
+
+/* Profile Picture */
+.img-circle {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Button Style for Discover LinkedIn Link */
+.btn {
+    background-color: #AE445A; /* Button color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #4B4376; /* Hover background */
+    transform: scale(1.05); /* Slight enlarge effect */
+}
+
+/* Horizontal Social Media List */
+.social-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center align items */
+}
+
+.social-list li {
+    margin: 0 10px; /* Add spacing between the items */
+}
+
+/* Social Media Icons */
+.social-list a {
+    color: #AE445A;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.social-list a:hover {
+    color: #4B4376;
+}
+
+/* Images */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%; /* Circular image */
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Section Padding */
+section {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 10px;
+    text-align: center;
+}
+
+.intro-text {
+    margin-bottom: 20px; /* Add space between text and button */
+}
