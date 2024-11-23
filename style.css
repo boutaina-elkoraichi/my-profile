@@ -7,6 +7,25 @@ body {
     padding: 0;
     line-height: 1.6;
 }
+/* Button Styling for Discover my LinkedIn */
+.button {
+    display: inline-block;
+    background-color: #AE445A; /* Button background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    font-size: 1rem; /* Font size */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #4B4376; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
 
 /* Header and Main Headings */
 h1 {
@@ -33,53 +52,24 @@ p {
     margin: 10px 20px;
 }
 
-/* Profile Picture */
-.img-circle {
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
+/* Links */
+a {
+    color: #AE445A;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
 }
 
-/* Button Style for Discover LinkedIn Link */
-.btn {
-    background-color: #AE445A; /* Button color */
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1rem;
-    text-align: center;
-    cursor: pointer;
-    display: inline-block;
-    margin-top: 15px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.btn:hover {
-    background-color: #4B4376; /* Hover background */
-    transform: scale(1.05); /* Slight enlarge effect */
-}
-
-/* Horizontal Social Media List */
-.social-list {
-    list-style-type: none;
-    padding: 0;
-    display: flex; /* Flexbox for horizontal layout */
-    justify-content: center; /* Center align items */
-}
-
-.social-list li {
-    margin: 0 10px; /* Add spacing between the items */
+a:hover {
+    text-decoration: underline;
+    color: #4B4376;
 }
 
 /* Social Media Icons */
-.social-list a {
-    color: #AE445A;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.social-list a:hover {
-    color: #4B4376;
+a i {
+    margin-right: 8px; /* Adds space between icon and text */
+    font-size: 1.2rem; /* Icon size */
 }
 
 /* Images */
@@ -107,6 +97,47 @@ section {
     text-align: center;
 }
 
-.intro-text {
-    margin-bottom: 20px; /* Add space between text and button */
+/* Social Media List Styling for Vertical Layout */
+.social-media-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 20px 0;
+}
+
+.social-media-list li {
+    margin: 10px 0; /* Add spacing between each social media link */
+}
+
+.social-media-list a {
+    text-decoration: none;
+    color: #AE445A; /* Link color */
+    font-weight: bold;
+    font-size: 1.1rem; /* Slightly larger text */
+    display: flex; /* Align icon and text */
+    align-items: center;
+}
+
+.social-media-list a:hover {
+    color: #4B4376; /* Hover color */
+}
+
+.social-media-list a i {
+    margin-right: 10px; /* Space between icon and text */
+    font-size: 1.5rem; /* Icon size */
+}
+footer {
+    background-color: #432E54;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #FAE3DC;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
